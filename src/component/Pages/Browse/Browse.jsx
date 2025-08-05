@@ -8,7 +8,7 @@ import logo5 from '../../../assets/Company logo (5).png'
 
 const Browse = () => {
     return (
-        <div className='lg:px-24 lg:py-8 bg-white'>
+        <div className='lg:px-24 px-4 lg:py-8 bg-white'>
             <div className='grid grid-cols-2 lg:grid-cols-6 gap-10'>
                 <img src={logo} alt="" />
                 <img src={logo1} alt="" />
