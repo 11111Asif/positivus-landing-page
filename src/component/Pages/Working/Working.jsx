@@ -57,7 +57,7 @@ const Working = () => {
                         </div>
                     </div>
                 </div>
-                <div className="collapse collapse-plus bg-[#F3F3F3] border border-b-4 border-black w-auto h-[159px] mt-5 rounded-3xl">
+                <div className="collapse collapse-plus bg-[#F3F3F3] border border-b-4 border-black w-auto h-[300px] lg:h-[159px] mt-5 rounded-3xl">
                     <input type="radio" name="my-accordion-3" />
                     <div className="collapse-title text-3xl text-black font-medium"><span className="text-4xl text-black font-bold mr-4">06</span>Continual Improvement</div>
                      <div className="collapse-content ">

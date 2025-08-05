@@ -4,6 +4,7 @@ import Happen from "../Happen/Happen";
 import Header from "../Header/Header";
 import Services from "../Services/Services";
 import Studies from "../Studies/Studies";
+import Team from "../Team/Team";
 import Working from "../Working/Working";
 
 
@@ -17,6 +18,7 @@ const Home = () => {
             <Happen></Happen>
             <Studies></Studies>
             <Working></Working>
+            <Team></Team>
         </div>
     );
 };
