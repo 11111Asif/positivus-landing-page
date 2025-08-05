@@ -3,6 +3,8 @@ import Browse from "../Browse/Browse";
 import Happen from "../Happen/Happen";
 import Header from "../Header/Header";
 import Services from "../Services/Services";
+import Studies from "../Studies/Studies";
+import Working from "../Working/Working";
 
 
 const Home = () => {
@@ -13,6 +15,8 @@ const Home = () => {
             <Browse></Browse>
             <Services></Services>
             <Happen></Happen>
+            <Studies></Studies>
+            <Working></Working>
         </div>
     );
 };
