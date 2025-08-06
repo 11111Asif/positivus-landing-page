@@ -2,7 +2,7 @@ import icon from '../../../assets/Icon.png'
 
 const Header = () => {
     return (
-        <div className='lg:flex justify-between lg:space-y-0 space-y-3 bg-white lg:px-24 py-3'>
+        <div className='lg:flex  justify-between lg:space-y-0 space-y-3 bg-white lg:px-24 py-3'>
             <div className='flex gap-3 justify-center items-center'>
                 <img src={icon} alt="" className='w-[36px] h-[36px]' />
                 <h2 className="text-4xl text-black font-bold">Positivus</h2>

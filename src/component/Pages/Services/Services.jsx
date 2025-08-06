@@ -9,8 +9,8 @@ import illustration4 from '../../../assets/Illustration (4).png'
 const Services = () => {
     return (
         <div className="lg:px-24 px-4  py-12 bg-white">
-            <div className="lg:flex gap-8">
-                <h2 className="text-4xl w-[178px] text-black text-center h-[51px] rounded-lg bg-[#B9FF66]">Services</h2>
+            <div className="lg:flex gap-8 ">
+                <h2 className="lg:text-4xl text-2xl lg;w-[178px] w-[150px] text-black text-center h-[40px] lg:h-[51px] rounded-lg bg-[#B9FF66]">Services</h2>
                 <p className="text-black">
                     At our digital marketing agency, we offer a range of services to<br /> help businesses grow and succeed online. These services include:
                 </p>
@@ -88,7 +88,7 @@ const Services = () => {
                         <p className='text-black mt-2'>Learn more</p>
                     </div>
                 </div>
-                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-[100px] py-5 lg:py-10 bg-[#B9FF66] border-black border-b-4 rounded-2xl">
+                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-[90px] py-5 lg:py-10 bg-[#B9FF66] border-black border-b-4 rounded-2xl">
                     <div className="lg:flex justify-between">
                         <div>
                             <h1 className="text-2xl font-bold w-[133px] h-[38px] rounded-lg text-center text-black bg-[#ffffff]">Content</h1>

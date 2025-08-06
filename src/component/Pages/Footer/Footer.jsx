@@ -5,14 +5,14 @@ import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="lg:px-24 px-4 bg-black py-8">
-            <div className='lg:flex justify-between lg:space-y-0 space-y-3'>
+        <div className="lg:px-24 px-4 bg-black py-8  ">
+            <div className='lg:flex justify-between   lg:space-y-0 space-y-3'>
                 <div className='flex justify-center gap-3'>
                     <img src={vector} alt="" />
                     <h2 className="text-3xl text-white font-bold">Positivus</h2>
                 </div>
                 
-                    <ul className='flex lg:gap-5 justify-center items-center gap-3'>
+                    <ul className='flex lg:gap-5  justify-center items-center gap-2'>
                         <li className='text-white underline'><a>About us</a></li>
                         <li className='text-white underline'><a>Services</a></li>
                         <li className='text-white underline'><a>Use Cases</a></li>
@@ -40,7 +40,7 @@ const Footer = () => {
                     <p className='text-white'>Address: 1234 Main St<br/>Moonstone City, Stardust State 12345</p>
                     
                 </div>
-                <div className='lg:w-[634px] lg:mt-0 mt-4 h-[184px] rounded-3xl py-[20px] lg:py-[54px] px-[40px] bg-[#292A32]'>
+                <div className='lg:w-[634px] border-2 border-white  lg:mt-0 mt-4 h-[184px] rounded-3xl py-[20px] lg:py-[54px] px-[40px] bg-[#292A32]'>
                     <div className='lg:flex gap-4'>
                         <input type="email" name='email' placeholder='Email' className='w-[275px] h-[67px] px-3 rounded-2xl border border-white' required />
                         <div className='w-[249px] h-[68px] lg:mt-0 mt-4 rounded-2xl py-5 px-14 bg-[#B9FF66]'>

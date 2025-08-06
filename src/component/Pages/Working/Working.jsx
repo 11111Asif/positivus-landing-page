@@ -4,12 +4,12 @@ const Working = () => {
     return (
         <div className="lg:px-24 px-4 py-5 bg-white">
             <div className="lg:flex gap-4">
-                <h1 className="lg:text-4xl text-3xl rounded-2xl lg:w-[398px] w-[340px] text-black text-center h-[51px] bg-[#B9FF66]">Our Working Process </h1>
+                <h1 className="lg:text-4xl text-2xl rounded-2xl lg:w-[398px] w-[250px] text-black text-center lg:py-0  h-[40px] lg:h-[51px] bg-[#B9FF66]">Our Working Process </h1>
                 <p className="text-black">
                     Step-by-Step Guide to Achieving<br /> Your Business Goals
                 </p>
             </div>
-            <div className="mt-10">
+            <div className="mt-10 ">
                 <div className="collapse collapse-plus bg-[#B9FF66] w-auto lg:h-[159px] h-[250px] border border-b-4 rounded-3xl border-black">
                     <input type="radio" name="my-accordion-3" defaultChecked />
                     

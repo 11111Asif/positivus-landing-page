@@ -10,7 +10,7 @@ const Team = () => {
     return (
         <div className="lg:px-24 px-4 py-10 bg-white">
             <div className="lg:flex gap-4">
-                <h1 className="text-4xl text-black w-[101px] h-[51px] text-center bg-[#B9FF66] rounded-2xl">Team</h1>
+                <h1 className="lg:text-4xl text-2xl text-black lg:w-[101px] w-[80px] h-[40px] lg:h-[51px] text-center bg-[#B9FF66] rounded-2xl">Team</h1>
                 <p className="text-black">Meet the skilled and experienced team behind our<br /> successful digital marketing strategies</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
@@ -112,7 +112,7 @@ const Team = () => {
                     <p className='text-black'>Skilled in creating compelling, SEO<br/> -optimized content for various<br/> industries</p>
                 </div>
             </div>
-            <div className='w-[269px] h-[68px] bg-black py-4 px-20 rounded-2xl mt-6 mx-auto '>
+            <div className='lg:w-[269px] w-[200px] h-[48px] lg:h-[68px] bg-black lg:py-4 py-2 px-10 lg:px-20 rounded-2xl mt-6 mx-auto '>
                 <button className='text-white text-xl'>See all team</button>
             </div>
         </div>
