@@ -4,6 +4,7 @@ import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Happen from "../Happen/Happen";
 import Header from "../Header/Header";
+import Nice from "../Nice/Nice";
 import Services from "../Services/Services";
 import Studies from "../Studies/Studies";
 import Team from "../Team/Team";
@@ -23,6 +24,7 @@ const Home = () => {
             <Team></Team>
             <Contact></Contact>
             <Footer></Footer>
+            <Nice></Nice>
         </div>
     );
 };

@@ -32,6 +32,28 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className='flex justify-between mt-12'>
+                <div>
+                    <h2 className="text-xl bg-[#B9FF66] text-black rounded-lg w-[126px] h-[26px] text-center">Contact us</h2>
+                    <p className='text-white py-3'>Email: info@positivus.com</p>
+                    <p className='text-white py-3'>Phone: 555-567-8901</p>
+                    <p className='text-white'>Address: 1234 Main St<br/>Moonstone City, Stardust State 12345</p>
+                    
+                </div>
+                <div className='w-[634px] h-[184px] rounded-3xl py-[54px] px-[40px] bg-[#292A32]'>
+                    <div className='flex gap-4'>
+                        <input type="email" name='email' placeholder='Email' className='w-[275px] h-[67px] px-3 rounded-2xl border border-white' required />
+                        <div className='w-[249px] h-[68px] rounded-2xl py-5 px-14 bg-[#B9FF66]'>
+                            <button className='text-black'>Subscribe to news</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='border-2 border-white mt-16'></div>
+            <div className='flex mt-10'>
+                <p className='text-white'>© 2023 Positivus. All Rights Reserved.</p>
+                <p className='text-white ml-16 underline'>Privacy Policy</p>
+            </div>
         </div>
     );
 };
