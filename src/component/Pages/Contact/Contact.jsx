@@ -16,7 +16,7 @@ const Contact = () => {
                            <img src={frame} alt="" />
                         </div>
                         <div className="card lg:w-[556px] w-[310px] shrink-0">
-                            <div className="flex w-[276px] gap-5 lg:gap-8 ml-7">
+                            <div className="flex gap-5 lg:gap-8 ml-7">
                                 <div className="flex gap-3">
                                     <input type="radio" name="radio-5" className="radio radio-success" defaultChecked />
                                     <p className="text-black">Say Hi</p>
