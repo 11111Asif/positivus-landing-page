@@ -36,8 +36,8 @@ const Contact = () => {
                                 <div className="form-control">
                                     <input type="Message*" placeholder="Message*" className="lg:w-[556px] w-[250px] px-3 rounded-2xl bg-[#ffffff] text-black border-2 border-black h-[190px]" required />
                                 </div>
-                                <div className="mt-6 lg:w-[556px] w-[250px] h-[48px] lg:h-[68px] bg-black rounded-2xl lg:py-4 py-2 px-[60px] lg:px-[200px]">
-                                    <button className="text-white text-xl">Send Message</button>
+                                <div className="mt-6 lg:w-[556px] w-[250px] h-[48px] lg:h-[68px] bg-black rounded-2xl lg:py-4 py-3 px-[70px] lg:px-[200px]">
+                                    <button className="text-white lg:text-xl">Send Message</button>
                                 </div>
                             </form>
                         </div>
