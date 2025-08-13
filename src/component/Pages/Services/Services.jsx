@@ -16,7 +16,7 @@ const Services = () => {
                 </p>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-7 mt-16'>
-                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-16 py-5 lg:py-10 bg-[#F3F3F3] border-black border-b-4 rounded-2xl">
+                <div className=" w-auto h-auto lg:h-[310px] border lg:px-10 px-16 py-5 lg:py-10 bg-[#F3F3F3] border-black border-b-4 rounded-2xl">
                     <div className="lg:flex justify-between">
                         <div className='justify-center'>
                             <h1 className="text-2xl font-bold w-[221px] h-[38px] rounded-lg text-center text-black bg-[#B9FF66]">Search engine</h1>
@@ -34,7 +34,7 @@ const Services = () => {
                         <p className='text-black mt-2'>Learn more</p>
                     </div>
                 </div>
-                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-[70px] py-5 lg:py-10 bg-[#B9FF66] border-black border-b-4 rounded-2xl">
+                <div className=" w-auto h-auto lg:h-[310px] border lg:px-10 px-[70px] py-5 lg:py-10 bg-[#B9FF66] border-black border-b-4 rounded-2xl">
                     <div className="lg:flex justify-between">
                         <div>
                             <h1 className="text-2xl font-bold w-[195px] h-[38px] rounded-lg text-center text-black bg-[#ffffff]">Pay-per-click</h1>
@@ -52,7 +52,7 @@ const Services = () => {
                         <p className='text-black mt-2'>Learn more</p>
                     </div>
                 </div>
-                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-[70px] py-5 lg:py-10 bg-[#000000] border-black border-b-4 rounded-2xl">
+                <div className=" w-auto h-auto lg:h-[310px] border lg:px-10 px-[70px] py-5 lg:py-10 bg-[#000000] border-black border-b-4 rounded-2xl">
                     <div className="lg:flex justify-between">
                         <div className='justify-center'>
                             <h1 className="text-2xl font-bold w-[197px] h-[38px] rounded-lg text-center text-black bg-[#ffffff]">Social Media</h1>
@@ -70,7 +70,7 @@ const Services = () => {
                         <p className='text-white mt-2'>Learn more</p>
                     </div>
                 </div>
-                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-[88px] py-5 lg:py-10 bg-[#F3F3F3] border-black border-b-4 rounded-2xl">
+                <div className=" w-auto h-auto lg:h-[310px] border lg:px-10 px-[88px] py-5 lg:py-10 bg-[#F3F3F3] border-black border-b-4 rounded-2xl">
                     <div className="lg:flex justify-between">
                         <div className='justify-center'>
                             <h1 className="text-2xl font-bold w-[90px] h-[38px] rounded-lg text-center text-black bg-[#B9FF66]">Email</h1>
@@ -88,7 +88,7 @@ const Services = () => {
                         <p className='text-black mt-2'>Learn more</p>
                     </div>
                 </div>
-                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-[90px] py-5 lg:py-10 bg-[#B9FF66] border-black border-b-4 rounded-2xl">
+                <div className=" w-auto h-auto lg:h-[310px] border lg:px-10 px-[90px] py-5 lg:py-10 bg-[#B9FF66] border-black border-b-4 rounded-2xl">
                     <div className="lg:flex justify-between">
                         <div>
                             <h1 className="text-2xl font-bold w-[133px] h-[38px] rounded-lg text-center text-black bg-[#ffffff]">Content</h1>
@@ -106,7 +106,7 @@ const Services = () => {
                         <p className='text-black mt-2'>Learn more</p>
                     </div>
                 </div>
-                <div className=" w-auto h-[350px] lg:h-[310px] border lg:px-10 px-[68px] py-5 lg:py-10 bg-[#000000] border-black border-b-4 rounded-2xl">
+                <div className=" w-auto h-auto lg:h-[310px] border lg:px-10 px-[68px] py-5 lg:py-10 bg-[#000000] border-black border-b-4 rounded-2xl">
                     <div className="lg:flex justify-between">
                         <div className='justify-center'>
                             <h1 className="text-2xl font-bold w-[213px] h-[38px] rounded-lg text-center text-black bg-[#B9FF66]">Analytics and </h1>

@@ -15,7 +15,7 @@ const Header = () => {
                     <li className='text-black'><a>Pricing</a></li>
                     <li className='text-black'><a>Blog</a></li>
                 </ul>
-                <div className='w-[231px] lg:ml-10 ml-[72px] py-2 text-center lg:py-5 px-14 rounded-2xl h-[48px] lg:h-[68px] border border-black'>
+                <div className='w-[231px] mx-auto lg:ml-10 py-2 text-center lg:py-5 px-14 rounded-2xl h-[48px] lg:h-[68px] border border-black'>
                     <button className='text-black rounded-lg'>Request a quote</button>
                 </div>
             </div>
